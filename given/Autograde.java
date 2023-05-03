@@ -80,8 +80,8 @@ public class Autograde {
         }
         total++;
 
-        double score = (double) passed / total * 20;
-        System.out.println("nGram Tests Passed: " + passed + "/" + total + ", Score: " + score + "/20");
+        double score = (double) passed / total * 10;
+        System.out.println("nGram Tests Passed: " + passed + "/" + total + ", Score: " + score + "/10");
     }
 
     private static boolean hashMapTest1() {
@@ -220,8 +220,8 @@ public class Autograde {
         }
         total++;
 
-        double score = (double) passed / total * 50;
-        System.out.println("HashMap Tests Passed: " + passed + "/" + total + ", Score: " + score + "/50");
+        double score = (double) passed / total * 60;
+        System.out.println("HashMap Tests Passed: " + passed + "/" + total + ", Score: " + score + "/60");
     }
 
     public static void compareNGram() {
