@@ -139,7 +139,7 @@ public class HashMapDH<Key, Value> extends AbstractHashMap<Key, Value> {
      * 1. You need to make sure there are available places to put it in the array
      * 2. Get the intended place to put it using hashing
      * 3. Do collision resolution with double hashing when necessary
-     * 4. If there is a collision, return the value that is stored in the initial
+     * 4. If there is a collision, return the value that is stored in the last
      *        intended place where you wanted to place the new pair before collision
      */
     public Value put(Key k, Value v) {
